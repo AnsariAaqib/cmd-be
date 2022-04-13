@@ -23,6 +23,14 @@ h5 {
     border-radius: 20px;
     background-color: white;
     margin: 2rem auto;
+    height: 100%;
+    width:200%;
+    padding-top: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+    border-radius: 3%;
+    box-shadow: 0px 0px 5px rgb(87, 86, 85);
 }
 #btn{
     font-style: white;
@@ -64,7 +72,17 @@ h5 {
     place-items: center;
     }
     
-#ECG, #Di {
+#Di {
+    width: 90px;
+    height: 50px;
+    border-bottom: 1px solid black;
+    position: center;
+    justify-content: space-between;
+    text-align: center;
+    justify-content: center;
+    
+}
+#ECG {
     width: 60px;
     height: 50px;
     border-bottom: 1px solid black;
@@ -75,7 +93,7 @@ h5 {
     
 }
 #temp1 {
-    width: 70px;
+    width: 100px;
     height: 50px;
     border-bottom: 1px solid black;
     position: center;
@@ -85,7 +103,7 @@ h5 {
     
 }
 #RR {
-    width: 120px;
+    width: 150px;
     height: 50px;
     border-bottom: 1px solid black;
     position: center;
@@ -144,4 +162,7 @@ select.form-control {
 
 .form-card .line input[type="text"][readonly] {
     border-bottom: 1px solid rgba(0, 0, 0, 0)
+}
+.form-card{
+    margin-top: -20px;
 }
